@@ -1,0 +1,429 @@
+﻿Canalul 'Canal_Test' a fost creat.
+Eroare la adăugarea membrului user1@campus.com: Resource 'user1@campus.com' does not exist or one of its queried reference-property objects are not present.
+Eroare la adăugarea membrului user2@campus.com: Resource 'user2@campus.com' does not exist or one of its queried reference-property objects are not present.
+Canalul 'Canal_Test' există deja.
+Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.ReadWriteNonOwnerRole.All,TeamMember.ReadWrite.All'
+Eroare la adăugarea membrului Popescu.A.Ionut@student.utcluj.ro: Resource 'Popescu.A.Ionut@student.utcluj.ro' does not exist or one of its queried reference-property objects are not present.
+Eroare la adăugarea membrului Muresan.B.Andreea@student.utcluj.ro: Resource 'Muresan.B.Andreea@student.utcluj.ro' does not exist or one of its queried reference-property objects are not present.
+
+=== Sesiune nouă - 2025-08-27 17:24:04 ===
+[17:24:08] Canalul 'Canal Test Automatizare' a fost creat (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:24:08] EROARE: Eroare la adăugarea membrului student1@student.utcluj.ro: Resource 'student1@student.utcluj.ro' does not exist or one of its queried reference-property objects are not present.
+[17:24:08] EROARE: Eroare la adăugarea membrului student2@student.utcluj.ro: Resource 'student2@student.utcluj.ro' does not exist or one of its queried reference-property objects are not present.
+[17:24:09] EROARE: Eroare la adăugarea membrului student3@student.utcluj.ro: Resource 'student3@student.utcluj.ro' does not exist or one of its queried reference-property objects are not present.
+[17:24:10] Sumar adăugare membri: 0 succese, 3 erori
+[17:24:10] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare' (mărime: 0 bytes)
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-27 17:26:25 ===
+[17:26:26] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:26:26] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:26:27] Sumar adăugare membri: 0 succese, 1 erori
+[17:26:28] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare' (mărime: 0 bytes)
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-27 17:29:37 ===
+[17:29:38] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:29:38] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:29:39] Sumar adăugare membri: 0 succese, 1 erori
+[17:29:40] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare' (mărime: 14133 bytes)
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-27 17:31:33 ===
+[17:31:34] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:31:34] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:31:35] Sumar adăugare membri: 0 succese, 1 erori
+[17:31:35] EROARE: Eroare la încărcarea fișierului: Cannot upload content to an item representing a folder.
+EROARE CRITICĂ [2025-08-27 17:31:35]: Cannot upload content to an item representing a folder.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Drives.Item.Items.Item.Content.ContentRequestBuilder.PutAsync(Stream body, Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.UploadFile(GraphServiceClient client, String teamId, String channelName, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 299
+   at TeamsAutomation.Program.UploadFile(GraphServiceClient client, String teamId, String channelName, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 321
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 72
+
+=== Sesiune nouă - 2025-08-27 17:52:11 ===
+[17:52:11] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:52:12] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:52:12] Sumar adăugare membri: 0 succese, 1 erori
+[17:52:13] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare' (mărime: 14133 bytes)
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-27 17:56:32 ===
+[17:56:33] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:56:33] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:56:34] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:56:34] Sumar adăugare membri: 0 succese, 2 erori
+[17:56:37] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare' (mărime: 14133 bytes)
+=== Toate operațiunile au fost finalizate ===
+EROARE CRITICĂ [2025-08-27 18:09:06]: Te rog setează access token-ul în variabila 'accessToken'!
+Stack trace:    at TeamsAutomation.Program.GetGraphClient() in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 86
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 49
+EROARE CRITICĂ [2025-08-27 18:09:24]: Te rog setează access token-ul în variabila 'accessToken'!
+Stack trace:    at TeamsAutomation.Program.GetGraphClient() in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 86
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 49
+
+=== Sesiune nouă - 2025-08-27 18:09:33 ===
+[18:09:34] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[18:09:34] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[18:09:35] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[18:09:35] Sumar adăugare membri: 0 succese, 2 erori
+[18:09:36] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare'
+[18:09:38] Mesaj postat în Teams cu fișierul test.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-27 18:11:38 ===
+[18:11:38] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[18:11:39] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[18:11:39] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[18:11:40] Sumar adăugare membri: 0 succese, 2 erori
+[18:11:41] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare'
+[18:11:42] Mesaj postat în Teams cu fișierul test.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 16:40:24 ===
+EROARE CRITICĂ [2025-08-28 16:40:25]: Lifetime validation failed, the token is expired.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Channels.ChannelsRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.EnsureChannel(GraphServiceClient client, String teamId, String channelName, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 123
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 56
+
+=== Sesiune nouă - 2025-08-28 16:42:09 ===
+[16:42:11] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[16:42:11] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[16:42:12] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[16:42:12] Sumar adăugare membri: 0 succese, 2 erori
+[16:42:13] Fișier încărcat: test.pdf în canalul 'Canal Test Automatizare'
+[16:42:14] Mesaj postat în Teams cu fișierul test.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 16:55:28 ===
+[16:55:29] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[16:55:30] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[16:55:30] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[16:55:31] Sumar adăugare membri: 0 succese, 2 erori
+[16:55:32] EROARE: The resource could not be found.
+EROARE CRITICĂ [2025-08-28 16:55:32]: The resource could not be found.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Drives.Item.Items.Item.DriveItemItemRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.UploadFileAndPostMessage(GraphServiceClient client, String teamId, Channel channel, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 229
+   at TeamsAutomation.Program.UploadFileAndPostMessage(GraphServiceClient client, String teamId, Channel channel, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 262
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 62
+
+=== Sesiune nouă - 2025-08-28 17:06:01 ===
+[17:06:02] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:06:02] Sărit peste adăugarea membrilor
+[17:06:03] Fișier încărcat: test2.pdf în canalul 'Canal Test Automatizare'
+[17:06:03] EROARE mesaj: Body does not contain marker for attachment with Id '01EK2ZZKYQ7OYBHAMR4ZBYCS6BYM6TAF5M'. Add '<attachment id="01EK2ZZKYQ7OYBHAMR4ZBYCS6BYM6TAF5M"></attachment>' to the body.
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 17:06:40 ===
+[17:06:40] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:06:40] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:06:41] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:06:41] Sumar adăugare membri: 0 succese, 2 erori
+[17:06:42] Fișier încărcat: test2.pdf în canalul 'Canal Test Automatizare'
+[17:06:43] Mesaj postat în Teams cu fișierul test2.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 17:12:20 ===
+[17:12:21] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:12:21] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:12:22] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:12:22] Sumar adăugare membri: 0 succese, 2 erori
+[17:12:23] EROARE: The resource could not be found.
+EROARE CRITICĂ [2025-08-28 17:12:23]: The resource could not be found.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Drives.Item.Items.Item.DriveItemItemRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.UploadFileAndPostMessage(GraphServiceClient client, String teamId, Channel channel, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 229
+   at TeamsAutomation.Program.UploadFileAndPostMessage(GraphServiceClient client, String teamId, Channel channel, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 262
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 62
+
+=== Sesiune nouă - 2025-08-28 17:12:51 ===
+[17:12:52] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:12:52] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:12:53] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:12:53] Sumar adăugare membri: 0 succese, 2 erori
+[17:12:54] EROARE: The resource could not be found.
+EROARE CRITICĂ [2025-08-28 17:12:54]: The resource could not be found.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Drives.Item.Items.Item.DriveItemItemRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.UploadFileAndPostMessage(GraphServiceClient client, String teamId, Channel channel, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 229
+   at TeamsAutomation.Program.UploadFileAndPostMessage(GraphServiceClient client, String teamId, Channel channel, String filePath, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 262
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 62
+
+=== Sesiune nouă - 2025-08-28 17:15:12 ===
+[17:15:13] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:15:13] Sărit peste adăugarea membrilor
+[17:15:13] Fișier încărcat: proba.pdf pe calea proba.pdf
+[17:15:13] AVERTISMENT: Fișier încărcat, dar mesaj eșuat: Body does not contain marker for attachment with Id '01EK2ZZK4OY6LMOB4UWBB34DIJM23TJ7EK'. Add '<attachment id="01EK2ZZK4OY6LMOB4UWBB34DIJM23TJ7EK"></attachment>' to the body.
+=== Toate operațiunile au fost finalizate ===
+EROARE CRITICĂ [2025-08-28 17:18:13]: Te rog setează access token-ul în variabila 'accessToken'!
+Stack trace:    at TeamsAutomation.Program.GetGraphClient() in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 86
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 49
+
+=== Sesiune nouă - 2025-08-28 17:19:58 ===
+[17:19:58] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:19:58] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:19:59] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:20:00] Sumar adăugare membri: 0 succese, 2 erori
+[17:20:00] Fișier încărcat: proba.pdf în canalul 'Canal Test Automatizare'
+[17:20:01] Mesaj postat în Teams cu fișierul proba.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 17:35:13 ===
+[17:35:14] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[17:35:14] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:35:15] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[17:35:15] Sumar adăugare membri: 0 succese, 2 erori
+[17:35:16] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[17:35:17] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 19:32:07 ===
+
+[19:32:07] Membrii actuali ai team-ului:
+[19:32:07] EROARE la listarea membrilor: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[19:32:08] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[19:32:08] EROARE: Eroare la adăugarea membrului Ciontea.C.Rares@student.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[19:32:09] EROARE: Eroare la adăugarea membrului Szomiu.Au.Roxana@campus.utcluj.ro: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[19:32:09] Sumar adăugare membri: 0 succese, 2 erori
+[19:32:10] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[19:32:11] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+EROARE CRITICĂ [2025-08-28 19:48:24]: Te rog setează access token-ul în variabila 'accessToken'!
+Stack trace:    at TeamsAutomation.Program.GetGraphClient() in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 85
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 48
+
+=== Sesiune nouă - 2025-08-28 19:48:51 ===
+[19:48:51] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[19:48:55] Guest invitat: ciontearares08@yahoo.com (ID: 5c1f26e8-2fd5-4b69-be42-07a78678c1c5)
+[19:48:55] EROARE: Eroare la adăugarea membrului ciontearares08@yahoo.com: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+[19:48:56] Sumar adăugare membri/guest-uri: 0 succese, 1 erori
+[19:48:56] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[19:48:57] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 19:52:33 ===
+[19:52:34] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[19:52:36] Guest invitat: ciontearares08@yahoo.com (ID: 5c1f26e8-2fd5-4b69-be42-07a78678c1c5)
+[19:52:37] Sumar invitații guest-uri: 1 succese, 0 erori
+[19:52:37] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[19:52:38] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 20:01:13 ===
+EROARE CRITICĂ [2025-08-28 20:01:13]: Request headers must contain only ASCII characters.
+Stack trace:    at System.Net.Http.HttpConnection.WriteStringAsync(String s, Boolean async)
+   at System.Net.Http.HttpConnection.WriteStringAsync(String s, Boolean async, Encoding encoding)
+   at System.Net.Http.HttpConnection.WriteHeadersAsync(HttpHeaders headers, String cookiesFromContainer, Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.Middleware.HeadersInspectionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.Middleware.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.Middleware.RetryHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.Middleware.CompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.GetHttpResponseMessage(RequestInformation requestInfo, CancellationToken cancellationToken, Activity activityForAttributes, String claims, Boolean isStreamResponse)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Channels.ChannelsRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.EnsureChannel(GraphServiceClient client, String teamId, String channelName, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 123
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 56
+
+=== Sesiune nouă - 2025-08-28 20:01:38 ===
+[20:01:39] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[20:01:39] User ciontearares08@yahoo.com nu există în Azure AD.
+[20:01:39] Sumar adăugări directe guest-uri: 0 succese, 1 erori
+[20:01:40] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[20:01:41] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 20:02:04 ===
+[20:02:05] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[20:02:05] User ciontearares08@yahoo.com nu există în Azure AD.
+[20:02:05] Sumar adăugări directe guest-uri: 0 succese, 1 erori
+[20:02:06] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[20:02:06] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 20:05:01 ===
+[20:05:02] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[20:05:04] Guest invitat: ciontearares08@yahoo.com (ID: 5c1f26e8-2fd5-4b69-be42-07a78678c1c5)
+[20:10:18] Guest-ul ciontearares08@yahoo.com nu a acceptat invitația în 5 minute.
+[20:10:18] Sumar invitații guest-uri: 1 succese, 0 erori
+[20:10:19] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[20:10:20] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 20:11:07 ===
+[20:11:08] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[20:11:11] Guest invitat: ciontearares08@yahoo.com (ID: 5c1f26e8-2fd5-4b69-be42-07a78678c1c5)
+[20:16:23] Guest-ul ciontearares08@yahoo.com nu a acceptat invitația în 5 minute.
+[20:16:23] Sumar invitații guest-uri: 1 succese, 0 erori
+[20:16:24] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[20:16:24] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 20:18:13 ===
+[20:18:14] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[20:18:17] Guest invitat: ciontearares08@yahoo.com (ID: 5c1f26e8-2fd5-4b69-be42-07a78678c1c5)
+[20:23:29] Guest-ul ciontearares08@yahoo.com nu a acceptat invitația în 5 minute.
+[20:23:29] Sumar invitații guest-uri: 1 succese, 0 erori
+[20:23:30] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[20:23:31] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 20:28:55 ===
+EROARE CRITICĂ [2025-08-28 20:28:55]: IDX14101: Unable to decode the payload '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Channels.ChannelsRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.EnsureChannel(GraphServiceClient client, String teamId, String channelName, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 122
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 55
+
+=== Sesiune nouă - 2025-08-28 20:35:44 ===
+[20:35:44] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[20:35:47] Guest invitat: ciontearares08@yahoo.com (ID: 5c1f26e8-2fd5-4b69-be42-07a78678c1c5)
+[20:41:00] Guest-ul ciontearares08@yahoo.com nu a acceptat invitația în 5 minute.
+[20:41:00] Sumar invitații guest-uri: 1 succese, 0 erori
+[20:41:01] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[20:41:01] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 20:41:58 ===
+EROARE CRITICĂ [2025-08-28 20:41:58]: IDX14121: JWT is not a well formed JWE, there must be four dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Channels.ChannelsRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.EnsureChannel(GraphServiceClient client, String teamId, String channelName, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 123
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 56
+
+=== Sesiune nouă - 2025-08-28 20:47:21 ===
+[20:47:22] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[20:47:26] Guest invitat: raresciontea2004@gmail.com (ID invitație: 38a52ad4-5f76-4c5c-8037-f2bed6d48e45)
+[20:52:33] Guest-ul raresciontea2004@gmail.com nu a acceptat invitația în 5 minute.
+[20:52:33] Sumar invitații guest-uri: 1 succese, 0 erori
+[20:52:34] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[20:52:34] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 21:00:44 ===
+EROARE CRITICĂ [2025-08-28 21:00:44]: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Channels.ChannelsRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.EnsureChannel(GraphServiceClient client, String teamId, String channelName, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 122
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 55
+
+=== Sesiune nouă - 2025-08-28 21:01:00 ===
+[21:01:01] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[21:01:01] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[21:01:01] Sumar adăugări guest-uri: 0 succese, 1 erori
+[21:01:01] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[21:01:02] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 21:03:55 ===
+[21:03:55] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[21:03:56] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[21:03:56] Sumar adăugări guest-uri existente: 0 adăugați, 1 erori
+[21:03:56] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[21:03:57] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 21:23:27 ===
+EROARE listare: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 21:23:41 ===
+[21:23:42] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[21:23:42] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[21:23:42] Sumar adăugări guest-uri: 0 succese, 1 erori
+[21:23:43] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[21:23:43] Mesaj postat în Teams cu fișierul practica.pdf
+=== Toate operațiunile au fost finalizate ===
+
+=== Sesiune nouă - 2025-08-28 21:25:45 ===
+[21:25:46] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[21:25:46] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[21:25:46] Sumar adăugări guest-uri: 0 succese, 1 erori
+[21:25:46] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[21:25:47] Mesaj postat în Teams cu fișierul practica.pdf
+EROARE CRITICĂ [2025-08-28 21:25:47]: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Members.MembersRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.ListTeamMembersWithRoles(GraphServiceClient client, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 157
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 64
+
+=== Sesiune nouă - 2025-08-28 21:26:09 ===
+[21:26:10] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[21:26:10] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[21:26:10] Sumar adăugări guest-uri: 0 succese, 1 erori
+[21:26:11] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[21:26:11] Mesaj postat în Teams cu fișierul practica.pdf
+EROARE CRITICĂ [2025-08-28 21:26:12]: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Members.MembersRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.ListTeamMembersWithRoles(GraphServiceClient client, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 157
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 64
+
+=== Sesiune nouă - 2025-08-28 21:29:23 ===
+[21:29:23] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[21:29:23] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[21:29:23] Sumar adăugări guest-uri: 0 succese, 1 erori
+[21:29:24] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[21:29:24] Mesaj postat în Teams cu fișierul practica.pdf
+EROARE CRITICĂ [2025-08-28 21:29:25]: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Members.MembersRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.ListTeamMembersWithRoles(GraphServiceClient client, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 157
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 64
+
+=== Sesiune nouă - 2025-08-29 15:17:15 ===
+[15:17:16] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[15:17:16] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[15:17:16] Sumar adăugări guest-uri: 0 succese, 1 erori
+[15:17:17] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[15:17:18] Mesaj postat în Teams cu fișierul practica.pdf
+EROARE CRITICĂ [2025-08-29 15:17:18]: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Members.MembersRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.ListTeamMembersWithRoles(GraphServiceClient client, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 163
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 70
+
+=== Sesiune nouă - 2025-08-29 15:24:08 ===
+[15:24:09] Canalul 'Canal Test Automatizare' există deja (ID: 19:9e21630568714dfb88b6a519f225d77e@thread.tacv2).
+[15:24:09] Guest-ul ciontearares08@yahoo.com nu există în tenant.
+[15:24:09] Sumar adăugări guest-uri: 0 succese, 1 erori
+[15:24:09] Fișier încărcat: practica.pdf în canalul 'Canal Test Automatizare'
+[15:24:10] Mesaj postat în Teams cu fișierul practica.pdf
+EROARE CRITICĂ [2025-08-29 15:24:10]: Caller does not have the required permissions for accessing this API. AllowedPermissions:'TeamMember.Read.All,TeamMember.ReadWrite.All'
+Stack trace:    at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.ThrowIfFailedResponse(HttpResponseMessage response, Dictionary`2 errorMapping, Activity activityForAttributes, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Kiota.Http.HttpClientLibrary.HttpClientRequestAdapter.SendAsync[ModelType](RequestInformation requestInfo, ParsableFactory`1 factory, Dictionary`2 errorMapping, CancellationToken cancellationToken)
+   at Microsoft.Graph.Teams.Item.Members.MembersRequestBuilder.GetAsync(Action`1 requestConfiguration, CancellationToken cancellationToken)
+   at TeamsAutomation.Program.ListTeamMembersWithRoles(GraphServiceClient client, StreamWriter log) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 163
+   at TeamsAutomation.Program.Main(String[] args) in C:\Users\Rares\OneDrive\Desktop\Practica\TeamsAutomation\Program.cs:line 70
